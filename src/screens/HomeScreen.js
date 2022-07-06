@@ -17,6 +17,15 @@ const HomeScreen = ({navigation}) => {
     title="Go to Counter"
     onPress={() => navigation.navigate('Counter')}
     />
+    <Button
+    title="Go to Text Input"
+    onPress={() => navigation.navigate('Input')}
+    />
+    <Button
+    title="Go to Password Input"
+    onPress={() => navigation.navigate('Password')}
+    />
+    
     </View>
 };
    
