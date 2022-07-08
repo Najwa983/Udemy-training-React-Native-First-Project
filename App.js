@@ -5,6 +5,7 @@ import ComponentsScreen from "./src/screens/ComponentsScreen";
 import ListScreen from "./src/screens/ListScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import PasswordInputScreen from "./src/screens/PasswordInputScreen";
+import BoxScreen from "./src/screens/BoxScreen";
 import InputTextScreen from "./src/screens/InputTextScreen";
 const navigator = createStackNavigator(
   {
@@ -13,7 +14,8 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Counter: CounterScreen,
     Input: InputTextScreen,
-    Password: PasswordInputScreen
+    Password: PasswordInputScreen,
+    Box: BoxScreen
   },
   {
     initialRouteName: "Home",
